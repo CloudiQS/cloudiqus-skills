@@ -19,10 +19,4 @@
     { "name": "cloudiqus-agent-bakery", "source": "./cloudiqus-agent-bakery", "version": "3.0.0", "description": "Agent Bakery GTM — AgentCore, Quick Suite, POC motion, StoreFront." }
   ]
 }
-```
 
-**Click Commit changes**
-
-Then in Claude Code type:
-```
-/plugin marketplace add CloudiQS/cloudiqus-skills
