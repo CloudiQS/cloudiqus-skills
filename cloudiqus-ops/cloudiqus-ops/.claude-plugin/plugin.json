@@ -1,0 +1,57 @@
+{
+  "name": "cloudiqus-ops",
+  "description": "Operations \u2014 health score, MSP reporting, renewal playbook, churn detection, partner scorecard, orchestrator.",
+  "version": "3.0.0",
+  "skills": [
+    {
+      "name": "churn-detection",
+      "description": "CloudiQS churn detection \u2014 early warning signals, churn risk scoring, intervention playbook, and win-back sequences for churned customers."
+    },
+    {
+      "name": "customer-success",
+      "description": "CloudiQS customer success playbook \u2014 12-month post-launch engine, 28+ triggers, NPS collection, reference programme, and advocacy development."
+    },
+    {
+      "name": "health-score",
+      "description": "CloudiQS customer health scoring model (0\u2013100). Tracks AWS spend, engagement, delivery, satisfaction, and renewal risk. Updates monthly. Triggers churn and expansion workflows."
+    },
+    {
+      "name": "msp-reporting",
+      "description": "CloudiQS MSP reporting suite \u2014 Monthly Value Report, quarterly business review, AWS partner scorecard, and internal pipeline report. Formats, cadence, and recipients."
+    },
+    {
+      "name": "orchestrator",
+      "description": "CloudiQS Orchestrator agent skill \u2014 produces the daily digest at 08:00, coordinates all other agents, monitors SLAs, and surfaces the top 3 actions for Steve each morning."
+    },
+    {
+      "name": "partner-scorecard",
+      "description": "CloudiQS AWS Partner Scorecard \u2014 tracks tier requirements, competency health, certification headcount, ACE quality, and MDF utilisation. Updated quarterly."
+    },
+    {
+      "name": "renewal-playbook",
+      "description": "CloudiQS MSP renewal playbook. Timeline from R-180 to R+0. Commercial conversation triggers, expansion bundle, and escalation if at risk."
+    }
+  ],
+  "commands": [
+    {
+      "name": "churn-risk",
+      "description": "Identify customers at churn risk and produce intervention plan."
+    },
+    {
+      "name": "health-review",
+      "description": "Run monthly health score review for all CloudiQS MSP customers. Flags amber/red and triggers appropriate actions."
+    },
+    {
+      "name": "monthly-report",
+      "description": "Produce the CloudiQS monthly business report \u2014 MRR, pipeline, funding received, top 3 priorities."
+    },
+    {
+      "name": "partner-scorecard",
+      "description": "Produce the CloudiQS AWS Partner Scorecard \u2014 tier requirements, competency health, certification status, ACE quality."
+    },
+    {
+      "name": "renewal",
+      "description": "Run the renewal playbook for a specific customer. Timeline, expansion bundle, risk assessment."
+    }
+  ]
+}

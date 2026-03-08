@@ -1,0 +1,49 @@
+{
+  "name": "cloudiqus-intelligence",
+  "description": "Market intel \u2014 company research, sector analysis, competitor map, buying signals, account intelligence.",
+  "version": "3.0.0",
+  "skills": [
+    {
+      "name": "account-intelligence",
+      "description": "Deep account intelligence for existing CloudiQS customers \u2014 expansion opportunities, risk signals, stakeholder mapping, and multi-year value potential."
+    },
+    {
+      "name": "aws-partner-landscape",
+      "description": "AWS partner ecosystem intelligence \u2014 tiers, programmes, PDM relationships, co-sell mechanics, and how CloudiQS positions within the ecosystem."
+    },
+    {
+      "name": "buying-signals",
+      "description": "Real-time buying signal detection for CloudiQS \u2014 what signals to look for, where to find them, and how to act on them within 24 hours."
+    },
+    {
+      "name": "company-research",
+      "description": "Deep company research framework for CloudiQS \u2014 beyond basics. Identifies tech stack, buying signals, org structure, and the single best conversation opener."
+    },
+    {
+      "name": "competitor-map",
+      "description": "CloudiQS competitive landscape \u2014 direct AWS partner competitors, how to differentiate, and what to do when they're mentioned in a sales conversation."
+    },
+    {
+      "name": "sector-analysis",
+      "description": "Sector-specific AWS consulting intelligence for CloudiQS target sectors \u2014 education, financial services, manufacturing, retail, healthcare. Tailors messaging and proof points by sector."
+    }
+  ],
+  "commands": [
+    {
+      "name": "competitor-intel",
+      "description": "Competitive intelligence for a specific sales situation \u2014 who is CloudiQS competing against and how to win."
+    },
+    {
+      "name": "research",
+      "description": "Deep research on a company or sector for CloudiQS outreach or account planning."
+    },
+    {
+      "name": "sector-brief",
+      "description": "Sector intelligence brief for a target industry \u2014 AWS patterns, pain points, CloudiQS angle, proof points."
+    },
+    {
+      "name": "signals",
+      "description": "Identify and prioritise buying signals for a set of target companies. Returns ranked action list."
+    }
+  ]
+}

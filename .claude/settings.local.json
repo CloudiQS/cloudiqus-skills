@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(claude --version)",
+      "WebFetch(domain:github.com)",
+      "Bash(claude plugin --help)",
+      "Bash(claude plugin marketplace --help)",
+      "Bash(claude plugin marketplace add CloudiQS/cloudiqus-skills)",
+      "Bash(curl -s \"https://api.github.com/repos/CloudiQS/cloudiqus-skills/contents\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(f[''name'']\\) for f in data] if isinstance\\(data,list\\) else print\\(data.get\\(''message'',''unknown error''\\)\\)\")",
+      "Bash(curl -s \"https://api.github.com/repos/CloudiQS/cloudiqus-skills/contents/.claude-plugin\")",
+      "Bash(claude plugin install --help)",
+      "Bash(claude plugin validate --help)",
+      "Bash(unzip -l cloudiqus-toolkit.zip)",
+      "Bash(unzip -o cloudiqus-toolkit.zip -d /tmp/cloudiqus-plugins/)",
+      "Bash(claude plugin validate /tmp/cloudiqus-plugins/cloudiqus-toolkit)",
+      "Bash(curl -s \"https://api.github.com/repos/anthropics/claude-code-plugins/contents/.claude-plugin\")",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=claude-code+plugin+marketplace+in:name&sort=stars\")",
+      "Bash(curl -s \"https://api.github.com/repos/jimmc414/claude-code-plugin-marketplace/contents/.claude-plugin\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/jimmc414/claude-code-plugin-marketplace/master/.claude-plugin/marketplace.json\")"
+    ]
+  }
+}

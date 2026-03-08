@@ -1,0 +1,53 @@
+{
+  "name": "cloudiqus-agent-bakery",
+  "description": "Agent Bakery GTM \u2014 AgentCore architecture, Quick Suite catalogue, POC motion, StoreFront, governance, pricing.",
+  "version": "3.0.0",
+  "skills": [
+    {
+      "name": "agent-bakery-gtm",
+      "description": "Agent Bakery go-to-market strategy \u2014 positioning, ICP, pricing, sales motion, and competitive differentiation. The Agent Bakery is CloudiQS's GenAI product, built on AWS Bedrock AgentCore."
+    },
+    {
+      "name": "agent-pricing",
+      "description": "Agent Bakery pricing strategy \u2014 build, deploy, manage, and marketplace tiers. Discount rules, funding offsets, and how to present pricing in a sales conversation."
+    },
+    {
+      "name": "agentcore-architecture",
+      "description": "AWS Bedrock AgentCore technical architecture \u2014 runtime, gateway, memory, tools, A2A protocol, and FAST template. Reference for Agent Bakery delivery and technical conversations."
+    },
+    {
+      "name": "governance-framework",
+      "description": "AI governance framework for CloudiQS Agent Bakery \u2014 aligned to Singapore Model AI Governance Framework and AWS Agentic AI Competency requirements. Used in competency applications and enterprise customer conversations."
+    },
+    {
+      "name": "poc-motion",
+      "description": "Agent Bakery POC sales motion \u2014 from first conversation to working agent in 4\u20136 weeks. Demo script, POC scope template, funding model, and success criteria."
+    },
+    {
+      "name": "quick-suite-catalogue",
+      "description": "CloudiQS Quick Suite \u2014 10 pre-built agents available for rapid deployment. Each with use case, target sector, delivery time, and pricing."
+    },
+    {
+      "name": "storefront",
+      "description": "Agent Bakery StoreFront \u2014 AWS Marketplace listing strategy, agent packaging, discovery, and purchase flow. How CloudiQS monetises agents at scale."
+    }
+  ],
+  "commands": [
+    {
+      "name": "agent-proposal",
+      "description": "Write the full Agent Bakery proposal \u2014 problem, agent design, timeline, investment, funding, ROI."
+    },
+    {
+      "name": "governance-brief",
+      "description": "Produce an AI governance brief for an Agent Bakery deployment \u2014 for enterprise customers or AWS competency documentation."
+    },
+    {
+      "name": "gtm-pitch",
+      "description": "Generate a tailored Agent Bakery GTM pitch for a specific customer or sector."
+    },
+    {
+      "name": "poc-design",
+      "description": "Design the Agent Bakery POC for a specific customer process. Scope, timeline, success criteria, funding model."
+    }
+  ]
+}
