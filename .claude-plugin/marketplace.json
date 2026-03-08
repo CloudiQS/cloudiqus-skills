@@ -1,51 +1,21 @@
 {
-  "metadata": {
-    "name": "CloudiQS Skills Marketplace",
-    "description": "End-to-end skills, commands and plugins for CloudiQS \u2014 AWS Advanced Consulting Partner. Alliance motion, opportunity chain, funding stack, Agentic AI SOW, FinOps, delivery, and Agent Bakery GTM. 59 skills \u00b7 40 commands \u00b7 8 plugins.",
-    "version": "3.0.0",
-    "author": "CloudiQS (IKSystems Limited)",
-    "repository": "cloudiqus/cloudiqus-skills"
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cloudiqus-skills",
+  "version": "3.0.0",
+  "description": "End-to-end skills, commands and plugins for CloudiQS — AWS Advanced Consulting Partner. 59 skills, 40 commands, 8 plugins covering opportunity chain, AWS funding, Agentic AI SOW, FinOps, delivery, and Agent Bakery GTM.",
+  "owner": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com",
+    "url": "https://cloudiqus.com"
   },
   "plugins": [
-    {
-      "name": "cloudiqus-toolkit",
-      "description": "Foundation \u2014 North Star, autonomy rules, lessons, customer context, ACE lifecycle, AI consulting identity. Load first every session.",
-      "source": "./cloudiqus-toolkit"
-    },
-    {
-      "name": "cloudiqus-outreach",
-      "description": "SDR & discovery \u2014 cold email hooks, LinkedIn sequences, target research, VMware angle, persona library, outreach metrics.",
-      "source": "./cloudiqus-outreach"
-    },
-    {
-      "name": "cloudiqus-commercial",
-      "description": "Sales & SOW \u2014 opportunity chain, PAIN qualify, alliance motion, Agentic AI SOW, pricing, pipeline, objections, proposals.",
-      "source": "./cloudiqus-commercial"
-    },
-    {
-      "name": "cloudiqus-delivery",
-      "description": "Technical delivery \u2014 FinOps, WAFR, security, migration, onboarding, MSP managed services, incident response.",
-      "source": "./cloudiqus-delivery"
-    },
-    {
-      "name": "cloudiqus-aws-funding",
-      "description": "AWS funding \u2014 MAP, POC credits, WAFR credits, MDF, Activate, BOX feasibility. Funding checked before every SOW.",
-      "source": "./cloudiqus-aws-funding"
-    },
-    {
-      "name": "cloudiqus-intelligence",
-      "description": "Market intel \u2014 company research, sector analysis, competitor map, buying signals, account intelligence.",
-      "source": "./cloudiqus-intelligence"
-    },
-    {
-      "name": "cloudiqus-ops",
-      "description": "Operations \u2014 health score, MSP reporting, renewal playbook, churn detection, partner scorecard, orchestrator.",
-      "source": "./cloudiqus-ops"
-    },
-    {
-      "name": "cloudiqus-agent-bakery",
-      "description": "Agent Bakery GTM \u2014 AgentCore architecture, Quick Suite catalogue, POC motion, StoreFront, governance, pricing.",
-      "source": "./cloudiqus-agent-bakery"
-    }
+    { "name": "cloudiqus-toolkit", "description": "Foundation — North Star, autonomy rules, lessons, customer context, ACE lifecycle, AI consulting identity.", "source": "./cloudiqus-toolkit", "category": "consulting" },
+    { "name": "cloudiqus-outreach", "description": "SDR & discovery — cold email, LinkedIn sequences, target research, VMware angle, persona library.", "source": "./cloudiqus-outreach", "category": "consulting" },
+    { "name": "cloudiqus-commercial", "description": "Sales & SOW — opportunity chain, PAIN qualify, alliance motion, Agentic AI SOW, pricing, pipeline.", "source": "./cloudiqus-commercial", "category": "consulting" },
+    { "name": "cloudiqus-delivery", "description": "Technical delivery — FinOps, WAFR, security, migration, onboarding, MSP, incident response.", "source": "./cloudiqus-delivery", "category": "consulting" },
+    { "name": "cloudiqus-aws-funding", "description": "AWS funding — MAP, POC credits, WAFR credits, MDF, Activate, BOX feasibility.", "source": "./cloudiqus-aws-funding", "category": "consulting" },
+    { "name": "cloudiqus-intelligence", "description": "Market intel — company research, sector analysis, competitor map, buying signals.", "source": "./cloudiqus-intelligence", "category": "consulting" },
+    { "name": "cloudiqus-ops", "description": "Operations — health score, MSP reporting, renewal playbook, churn detection, partner scorecard.", "source": "./cloudiqus-ops", "category": "consulting" },
+    { "name": "cloudiqus-agent-bakery", "description": "Agent Bakery GTM — AgentCore, Quick Suite catalogue, POC motion, StoreFront, governance.", "source": "./cloudiqus-agent-bakery", "category": "consulting" }
   ]
 }
