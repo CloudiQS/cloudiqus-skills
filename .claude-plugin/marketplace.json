@@ -1,51 +1,28 @@
 {
+  "name": "cloudiqus-skills",
+  "owner": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com"
+  },
   "metadata": {
-    "name": "CloudiQS Skills Marketplace",
-    "description": "End-to-end skills, commands and plugins for CloudiQS \u2014 AWS Advanced Consulting Partner. Alliance motion, opportunity chain, funding stack, Agentic AI SOW, FinOps, delivery, and Agent Bakery GTM. 59 skills \u00b7 40 commands \u00b7 8 plugins.",
-    "version": "3.0.0",
-    "author": "CloudiQS (IKSystems Limited)",
-    "repository": "cloudiqus/cloudiqus-skills"
+    "description": "End-to-end skills, commands and plugins for CloudiQS — AWS Advanced Consulting Partner. 59 skills, 40 commands, 8 plugins.",
+    "version": "3.0.0"
   },
   "plugins": [
-    {
-      "name": "cloudiqus-toolkit",
-      "description": "Foundation \u2014 North Star, autonomy rules, lessons, customer context, ACE lifecycle, AI consulting identity. Load first every session.",
-      "source": "./cloudiqus-toolkit"
-    },
-    {
-      "name": "cloudiqus-outreach",
-      "description": "SDR & discovery \u2014 cold email hooks, LinkedIn sequences, target research, VMware angle, persona library, outreach metrics.",
-      "source": "./cloudiqus-outreach"
-    },
-    {
-      "name": "cloudiqus-commercial",
-      "description": "Sales & SOW \u2014 opportunity chain, PAIN qualify, alliance motion, Agentic AI SOW, pricing, pipeline, objections, proposals.",
-      "source": "./cloudiqus-commercial"
-    },
-    {
-      "name": "cloudiqus-delivery",
-      "description": "Technical delivery \u2014 FinOps, WAFR, security, migration, onboarding, MSP managed services, incident response.",
-      "source": "./cloudiqus-delivery"
-    },
-    {
-      "name": "cloudiqus-aws-funding",
-      "description": "AWS funding \u2014 MAP, POC credits, WAFR credits, MDF, Activate, BOX feasibility. Funding checked before every SOW.",
-      "source": "./cloudiqus-aws-funding"
-    },
-    {
-      "name": "cloudiqus-intelligence",
-      "description": "Market intel \u2014 company research, sector analysis, competitor map, buying signals, account intelligence.",
-      "source": "./cloudiqus-intelligence"
-    },
-    {
-      "name": "cloudiqus-ops",
-      "description": "Operations \u2014 health score, MSP reporting, renewal playbook, churn detection, partner scorecard, orchestrator.",
-      "source": "./cloudiqus-ops"
-    },
-    {
-      "name": "cloudiqus-agent-bakery",
-      "description": "Agent Bakery GTM \u2014 AgentCore architecture, Quick Suite catalogue, POC motion, StoreFront, governance, pricing.",
-      "source": "./cloudiqus-agent-bakery"
-    }
+    { "name": "cloudiqus-toolkit", "source": "./cloudiqus-toolkit", "version": "3.0.0", "description": "Foundation — North Star, autonomy rules, lessons, customer context, ACE lifecycle." },
+    { "name": "cloudiqus-outreach", "source": "./cloudiqus-outreach", "version": "3.0.0", "description": "SDR & discovery — cold email, LinkedIn sequences, target research." },
+    { "name": "cloudiqus-commercial", "source": "./cloudiqus-commercial", "version": "3.0.0", "description": "Sales & SOW — opportunity chain, PAIN qualify, alliance motion, Agentic AI SOW." },
+    { "name": "cloudiqus-delivery", "source": "./cloudiqus-delivery", "version": "3.0.0", "description": "Technical delivery — FinOps, WAFR, security, migration, MSP." },
+    { "name": "cloudiqus-aws-funding", "source": "./cloudiqus-aws-funding", "version": "3.0.0", "description": "AWS funding — MAP, POC credits, WAFR credits, MDF, Activate, BOX." },
+    { "name": "cloudiqus-intelligence", "source": "./cloudiqus-intelligence", "version": "3.0.0", "description": "Market intel — company research, sectors, competitors, buying signals." },
+    { "name": "cloudiqus-ops", "source": "./cloudiqus-ops", "version": "3.0.0", "description": "Operations — health score, renewals, churn detection, reporting." },
+    { "name": "cloudiqus-agent-bakery", "source": "./cloudiqus-agent-bakery", "version": "3.0.0", "description": "Agent Bakery GTM — AgentCore, Quick Suite, POC motion, StoreFront." }
   ]
 }
+```
+
+**Click Commit changes**
+
+Then in Claude Code type:
+```
+/plugin marketplace add CloudiQS/cloudiqus-skills
