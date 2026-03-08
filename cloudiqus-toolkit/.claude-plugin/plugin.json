@@ -1,49 +1,19 @@
 {
   "name": "cloudiqus-toolkit",
-  "description": "Foundation \u2014 North Star, autonomy rules, lessons, customer context, ACE lifecycle, AI consulting identity. Load first every session.",
   "version": "3.0.0",
-  "skills": [
-    {
-      "name": "ace-lifecycle",
-      "description": "AWS ACE (APN Customer Engagements) opportunity lifecycle. 7 stages from registration to close. Covers co-sell motions, PDM engagement, and funding triggers at each stage."
-    },
-    {
-      "name": "ai-consulting-identity",
-      "description": "What makes CloudiQS a great AI consulting firm. The benchmark every output is measured against. Loaded when positioning CloudiQS, writing proposals, or preparing for any customer conversation about AI."
-    },
-    {
-      "name": "autonomy-rules",
-      "description": "Defines what CloudiQS agents and team members can do autonomously (GREEN), must get approval for (AMBER), or must escalate immediately (RED). Apply to every action across every skill."
-    },
-    {
-      "name": "cloudiqus-profile",
-      "description": "Full CloudiQS company profile \u2014 competencies, team, differentiators, proof points, partner tier. Used by outreach, discovery, and proposal skills to describe CloudiQS accurately."
-    },
-    {
-      "name": "customer-context",
-      "description": "Template for per-customer context files. Create one per MSP customer. Loaded when working on that customer to give AI assistants full account knowledge without re-explaining every session."
-    },
-    {
-      "name": "lessons-system",
-      "description": "The CloudiQS self-correction system. Read at the start of every session. Append every correction immediately. The system gets smarter over time."
-    },
-    {
-      "name": "north-star",
-      "description": "Foundation skill. Always loaded first. Encodes why CloudiQS exists, the 4 commercial pillars, autonomy boundaries, and financial rules. Never skipped."
-    }
+  "description": "Foundation skills \u2014 North Star, autonomy rules, lessons system, customer context, ACE lifecycle, AI consulting identity. Load first every session.",
+  "author": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com",
+    "url": "https://cloudiqus.com"
+  },
+  "keywords": [
+    "aws",
+    "consulting",
+    "cloudiqus",
+    "foundation",
+    "ace"
   ],
-  "commands": [
-    {
-      "name": "customer-setup",
-      "description": "Create a new per-customer context file using the customer-context template. One file per MSP customer."
-    },
-    {
-      "name": "daily-brief",
-      "description": "Generate today's CloudiQS daily brief \u2014 pipeline pulse, customer health, funding deadlines, and top 3 actions for Steve."
-    },
-    {
-      "name": "lessons",
-      "description": "View, add, or update lessons in the CloudiQS lessons system. Run at start of session to load prior corrections."
-    }
-  ]
+  "homepage": "https://github.com/CloudiQS/cloudiqus-skills",
+  "license": "MIT"
 }

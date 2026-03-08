@@ -1,57 +1,21 @@
 {
   "name": "cloudiqus-outreach",
-  "description": "SDR & discovery \u2014 cold email hooks, LinkedIn sequences, target research, VMware angle, persona library, outreach metrics.",
   "version": "3.0.0",
-  "skills": [
-    {
-      "name": "discovery-prep",
-      "description": "Prepare a one-page call brief for a CloudiQS discovery call. Company research, pain hypothesis, tailored PAIN questions, proof point, and proposed next step. Readable in 3 minutes."
-    },
-    {
-      "name": "linkedin-sequence",
-      "description": "LinkedIn outreach sequence for CloudiQS \u2014 5 touches over 21 days. Connection note, warm message, insight share, case study, soft close. Never pitch on the first touch."
-    },
-    {
-      "name": "outreach-metrics",
-      "description": "Outreach performance tracking for CloudiQS SDR activity. Defines the metrics Oliver tracks weekly, benchmarks, and decision triggers."
-    },
-    {
-      "name": "persona-library",
-      "description": "Detailed buyer personas for CloudiQS outreach \u2014 CTO, CFO, IT Director, CEO, Head of Digital. Pain points, language, channels, and what wins them over."
-    },
-    {
-      "name": "sdr-outreach",
-      "description": "Cold email rules, 4 pillar hooks, 5-touch sequence, persona table, and email structure. Produces ready-to-send emails \u2014 never generic templates. Every email references something specific to the target company."
-    },
-    {
-      "name": "target-research",
-      "description": "Research framework for CloudiQS outreach targets. Identifies tech stack signals, buying triggers, decision makers, and the right hook before any email is written."
-    },
-    {
-      "name": "vmware-angle",
-      "description": "Deep playbook for the VMware/Broadcom migration angle \u2014 the strongest CloudiQS commercial trigger right now. Facts, messaging, objections, migration paths, and MAP funding model."
-    }
+  "description": "SDR & discovery \u2014 cold email hooks, LinkedIn sequences, target research, VMware angle, persona library, outreach metrics.",
+  "author": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com",
+    "url": "https://cloudiqus.com"
+  },
+  "keywords": [
+    "aws",
+    "consulting",
+    "cloudiqus",
+    "sdr",
+    "outreach",
+    "linkedin",
+    "vmware"
   ],
-  "commands": [
-    {
-      "name": "discovery-prep",
-      "description": "Prepare a one-page call brief for a CloudiQS discovery call. Readable in 3 minutes before the call."
-    },
-    {
-      "name": "linkedin-sequence",
-      "description": "Write the full 5-touch LinkedIn + email sequence for a prospect. 21-day cadence, personalised to their signals."
-    },
-    {
-      "name": "outreach-scorecard",
-      "description": "Produce Oliver's weekly outreach scorecard \u2014 actuals vs targets, and one recommended action."
-    },
-    {
-      "name": "outreach",
-      "description": "Write personalised cold outreach emails for a list of target companies. One email + LinkedIn note per company."
-    },
-    {
-      "name": "research",
-      "description": "Deep research on a target company \u2014 tech stack, buying signals, decision maker, and best conversation opener."
-    }
-  ]
+  "homepage": "https://github.com/CloudiQS/cloudiqus-skills",
+  "license": "MIT"
 }

@@ -1,65 +1,21 @@
 {
   "name": "cloudiqus-delivery",
-  "description": "Technical delivery \u2014 FinOps, WAFR, security, migration, onboarding, MSP managed services, incident response.",
   "version": "3.0.0",
-  "skills": [
-    {
-      "name": "finops-review",
-      "description": "FinOps review methodology for CloudiQS MSP customers. Monthly Value Report format, quick win tiers, expansion signal rules. All figures in GBP."
-    },
-    {
-      "name": "incident-response",
-      "description": "CloudiQS cloud security incident response \u2014 detection, containment, investigation, remediation, and post-incident review. Based on AWS security incident response best practices."
-    },
-    {
-      "name": "managed-services",
-      "description": "CloudiQS MSP service delivery rhythm \u2014 daily, weekly, monthly operations using MontyCloud DAY2. SLA definitions, escalation paths, and customer review cadence."
-    },
-    {
-      "name": "migration-plan",
-      "description": "Cloud migration planning \u2014 6R framework, VMware/Broadcom angle, phased approach, MAP funding model, TCO comparison. Always checks MAP eligibility."
-    },
-    {
-      "name": "onboarding",
-      "description": "CloudiQS 30-day customer onboarding programme. First win by Day 21. First Value Report by Day 30. Structured to maximise early customer satisfaction and reduce churn risk."
-    },
-    {
-      "name": "security-check",
-      "description": "CloudiQS cloud security assessment framework. IAM audit, GuardDuty, Security Hub, encryption, network posture. Produces risk-rated findings and remediation plan."
-    },
-    {
-      "name": "wafr-run",
-      "description": "Well-Architected Framework Review methodology. All 6 pillars, 5-business-day credit submission rule, credit value by scope, and Partner Portal checklist."
-    },
-    {
-      "name": "well-architected-pillars",
-      "description": "Reference guide to all 6 AWS Well-Architected Framework pillars \u2014 key principles, design questions, and CloudiQS-specific recommendations for each."
-    }
+  "description": "Technical delivery \u2014 FinOps, WAFR, security, migration planning, onboarding, MSP managed services, incident response.",
+  "author": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com",
+    "url": "https://cloudiqus.com"
+  },
+  "keywords": [
+    "aws",
+    "consulting",
+    "cloudiqus",
+    "finops",
+    "wafr",
+    "migration",
+    "msp"
   ],
-  "commands": [
-    {
-      "name": "finops-review",
-      "description": "Run a full CloudiQS FinOps review for a customer AWS account. Produces Monthly Value Report in GBP."
-    },
-    {
-      "name": "incident",
-      "description": "Run the CloudiQS incident response process for a cloud security or availability incident."
-    },
-    {
-      "name": "migration-plan",
-      "description": "Create a cloud migration plan \u2014 6R framework, VMware angle, MAP funding, TCO comparison."
-    },
-    {
-      "name": "onboard",
-      "description": "Create a 30-day customer onboarding plan. First win by Day 21. First Value Report by Day 30."
-    },
-    {
-      "name": "security-check",
-      "description": "Run a CloudiQS security posture assessment \u2014 IAM, detection, network, data protection. Risk-rated findings."
-    },
-    {
-      "name": "wafr",
-      "description": "Run a CloudiQS WAFR \u2014 all 6 pillars, findings, remediation plan, credit claim checklist. 5-day submission rule."
-    }
-  ]
+  "homepage": "https://github.com/CloudiQS/cloudiqus-skills",
+  "license": "MIT"
 }

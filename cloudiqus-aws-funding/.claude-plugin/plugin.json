@@ -1,57 +1,21 @@
 {
   "name": "cloudiqus-aws-funding",
-  "description": "AWS funding \u2014 MAP, POC credits, WAFR credits, MDF, Activate, BOX feasibility. Funding checked before every SOW.",
   "version": "3.0.0",
-  "skills": [
-    {
-      "name": "aws-activate",
-      "description": "AWS Activate programme for startup customers. Up to $100K in AWS credits. CloudiQS registers as Activate Provider. Best for VC-backed startup customers."
-    },
-    {
-      "name": "box-feasibility",
-      "description": "AWS BOX (Business Continuity on AWS) feasibility study framework. Managed disaster recovery service on Amazon FSx for NetApp ONTAP. Pilot opportunity identification."
-    },
-    {
-      "name": "funding-stack",
-      "description": "Full AWS funding matrix for CloudiQS. MAP, POC, WAFR credits, MDF, Activate, BOX. Stacking rules, eligibility criteria, and immediate actions. Run before every SOW."
-    },
-    {
-      "name": "map-eligibility",
-      "description": "MAP (Migration Acceleration Program) eligibility check and ACE registration checklist. ACE must be registered as type=Migration before any billable work begins."
-    },
-    {
-      "name": "mdf-brief",
-      "description": "MDF (Market Development Funds) activity brief template for pre-approval. Covers eligible activities, co-funding rules, claim deadline, and required documentation."
-    },
-    {
-      "name": "poc-approval",
-      "description": "POC (Proof of Concept) credit approval process for GenAI and innovative AWS workloads. PDM written approval required before SOW is sent. Up to $25K or 10% of project value."
-    },
-    {
-      "name": "wafr-credits",
-      "description": "WAFR credit claim process. 5-business-day Partner Portal submission window \u2014 non-negotiable. Credit values, submission checklist, required documents."
-    }
+  "description": "AWS funding \u2014 MAP, POC credits, WAFR credits, MDF, Activate, BOX feasibility. Funding checked before every SOW.",
+  "author": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com",
+    "url": "https://cloudiqus.com"
+  },
+  "keywords": [
+    "aws",
+    "consulting",
+    "cloudiqus",
+    "map",
+    "funding",
+    "mdf",
+    "poc"
   ],
-  "commands": [
-    {
-      "name": "map-check",
-      "description": "MAP eligibility check and ACE registration checklist. Register before work starts \u2014 missed funding is permanent."
-    },
-    {
-      "name": "mdf-brief",
-      "description": "Draft an MDF activity brief for PDM pre-approval. Required before committing any spend."
-    },
-    {
-      "name": "poc-approval",
-      "description": "Prepare and send the POC credit approval request to PDM. Must be done before SOW is sent."
-    },
-    {
-      "name": "stack",
-      "description": "Calculate the full AWS funding stack for an opportunity. Returns applicable programmes, total value, actions, stacking strategy, net customer cost."
-    },
-    {
-      "name": "wafr-credits",
-      "description": "WAFR credit claim checklist for Partner Portal submission. 5-business-day window \u2014 first line of output must state the deadline."
-    }
-  ]
+  "homepage": "https://github.com/CloudiQS/cloudiqus-skills",
+  "license": "MIT"
 }

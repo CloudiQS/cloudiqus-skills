@@ -1,81 +1,21 @@
 {
   "name": "cloudiqus-commercial",
-  "description": "Sales & SOW \u2014 opportunity chain, PAIN qualify, alliance motion, Agentic AI SOW, pricing, pipeline, objections, proposals.",
   "version": "3.0.0",
-  "skills": [
-    {
-      "name": "agentic-ai-sow",
-      "description": "Specific SOW template for CloudiQS Agentic AI engagements \u2014 Agent Bakery POC, production deployment, and multi-agent platform. Includes AWS AgentCore architecture section, governance framework, and POC credit funding model. Never asks questions \u2014 uses [TBC] for missing fields."
-    },
-    {
-      "name": "alliance-motion",
-      "description": "AWS Alliance motion for CloudiQS \u2014 PDM engagement rules, co-sell triggers, ACE co-sell vs partner-led, executive briefing requests, and how to use AWS to fund and accelerate every opportunity."
-    },
-    {
-      "name": "commercial-frameworks",
-      "description": "Reference guide to commercial frameworks used in CloudiQS sales \u2014 PAIN, MEDDIC, Challenger Sale, Value Selling. When to use each and how they apply to AWS consulting deals."
-    },
-    {
-      "name": "objection-handling",
-      "description": "Common objections in CloudiQS sales conversations \u2014 with specific, credible responses. Covers pricing, timing, incumbent, risk, and AI scepticism objections."
-    },
-    {
-      "name": "opportunity-chain",
-      "description": "The CEO master workflow. Takes any new opportunity \u2014 2 sentences or a full brief \u2014 and runs all 7 tracks simultaneously: qualify, fund, ACE, alliance, SOW type, Agentic AI fit, action plan. Produces a one-page opportunity brief with everything Steve needs to move."
-    },
-    {
-      "name": "pain-qualify",
-      "description": "PAIN qualification framework for CloudiQS opportunities. 100-point lead scoring across 5 dimensions. Produces verdict (HOT/WARM/NURTURE/DISQUALIFY), next action, and funding check."
-    },
-    {
-      "name": "pipeline-management",
-      "description": "CloudiQS pipeline management \u2014 stage definitions, SLAs, CRM hygiene rules, weekly pipeline review format, and revenue forecasting."
-    },
-    {
-      "name": "pricing-strategy",
-      "description": "CloudiQS pricing frameworks \u2014 fixed price, T&M, value-based, retainer. Includes rate card, discount rules, and the AWS funding offset model."
-    },
-    {
-      "name": "proposal-writing",
-      "description": "CloudiQS proposal writing rules \u2014 executive summary, value proposition, proof points, investment section, and call to action. Produces proposals that win, not documents that inform."
-    },
-    {
-      "name": "sow-generate",
-      "description": "Generate complete CloudiQS Statements of Work. 7 SOW types, 11 sections. Always runs prerequisites gate and funding check first. Uses [TBC] for missing fields \u2014 never asks questions, never leaves a section blank."
-    }
+  "description": "Sales & SOW \u2014 opportunity chain, PAIN qualify, alliance motion, Agentic AI SOW, pricing strategy, pipeline management, objections.",
+  "author": {
+    "name": "CloudiQS",
+    "email": "hello@cloudiqus.com",
+    "url": "https://cloudiqus.com"
+  },
+  "keywords": [
+    "aws",
+    "consulting",
+    "cloudiqus",
+    "sow",
+    "sales",
+    "pipeline",
+    "agentic-ai"
   ],
-  "commands": [
-    {
-      "name": "agentic-sow",
-      "description": "Generate a complete CloudiQS Agentic AI SOW \u2014 Agent Bakery POC, production deployment, or multi-agent platform. Includes architecture section, governance framework, business case, and funding model."
-    },
-    {
-      "name": "alliance-brief",
-      "description": "Produce the alliance brief for any opportunity \u2014 what to tell PDM, whether to flag for co-sell, MDF opportunities, and the exact email to send to PDM today."
-    },
-    {
-      "name": "objections",
-      "description": "Get specific responses to objections raised in a sales conversation."
-    },
-    {
-      "name": "opportunity",
-      "description": "THE master command. Paste any opportunity \u2014 2 sentences or full brief \u2014 and get the complete one-page opportunity brief: qualify, fund, ACE, alliance, SOW type, Agentic AI fit, and action plan. This is the CEO daily driver."
-    },
-    {
-      "name": "pipeline-review",
-      "description": "Run the weekly pipeline review. Surfaces deals needing action, funding gaps, and revenue forecast."
-    },
-    {
-      "name": "proposal",
-      "description": "Write a CloudiQS proposal \u2014 8 pages max. Leads with their problem, not our credentials."
-    },
-    {
-      "name": "qualify",
-      "description": "Run PAIN qualification on an opportunity. Produces 0\u2013100 score, verdict, and next action."
-    },
-    {
-      "name": "sow",
-      "description": "Generate a complete CloudiQS SOW. Runs prerequisites gate and funding check first. Uses [TBC] for missing fields."
-    }
-  ]
+  "homepage": "https://github.com/CloudiQS/cloudiqus-skills",
+  "license": "MIT"
 }
